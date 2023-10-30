@@ -1,0 +1,56 @@
+.windowscreen .logo{
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'PT Serif', serif; 
+    text-align: center;
+    
+}
+.windowscreen .logo p{
+    font-size: 13px;
+}
+.windowscreen{
+    margin: 0 150px;
+    margin-top: 20px;
+    align-items: center;
+}
+.windowscreen ul{
+    display: flex;
+    gap: 30px;
+}
+.oulineMenu{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.windows-phone .logo{
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'PT Serif', serif; 
+}
+.windows-phone .logo p{
+    font-size: 13px;
+}
+
+.nav{
+    z-index: 99999;
+}
+.navbar-item {
+    /* Your styles for the .navbar-item class here */
+    background-color: #111111a8;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    z-index: 50;
+    height: 40vh;
+    width: 100%;
+}
+.navbar-item ul{
+    margin-top: 50px;
+}
+.navbar-item ul li{
+    padding: 10px 0;
+}
